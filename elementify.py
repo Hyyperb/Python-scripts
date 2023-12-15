@@ -6,7 +6,7 @@ flag1 = False
 
 df["Symbol"] = df['Symbol'].str.lower()
 
-text = "enter text here" 
+text = input("enter text: ") 
 text = text.lower() + "0"
 
 for i in range(len(text)-1):
